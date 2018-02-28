@@ -1,0 +1,256 @@
+extends layout
+
+block content
+  h1= title
+  p  
+    section#home.tt-fullHeight(data-stellar-vertical-offset='50' data-stellar-background-ratio='0.2')
+    .intro
+      .intro-sub
+      h1
+        | EZEQUIEL  
+        span SANCHEZ DE LA CRUZ
+      .social-icons
+        ul.list-inline
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-twitter
+          li
+            a(href='#')
+              i.fa.fa-behance
+          li
+            a(href='#')
+              i.fa.fa-dribbble
+          li
+            a(href='#')
+              i.fa.fa-pinterest
+      // /.social-icons
+    .mouse-icon
+      .wheel
+  // End Home Section
+  // About Section
+  section#about.about-section.section-padding
+    .container
+      h2.section-title.wow.fadeInUp Acerca de
+      h4
+        | Actualmente estudiante del octavo semestre de la carrera de Ingenieria en Sistemas Computacionales.
+      h4  En el Instituto Tecnologico Superior de Acayucan (ITSA). 
+      .short-info.wow.fadeInUp
+        ul.list-check
+          h5 Objetivo personal: 
+          p Superarme en todos los aspectos de mi vida, brindando lo mejor de mí cada día, tanto en el aspecto laboral como en el aspecto personal.
+          p  Mejorar profesionalmente de manera constante y formar parte de un equipo de trabajo y consolidarme profesionalmente en una empresa donde los logros personales y el desempeño sean reconocidos, además de permitir oportunidades de desarrollo personal y profesional. 
+          h5 Objetivo profesional:
+          p Evolucionar y mejorar dia a dia dentro y fuera de la empresa .
+          p Establecerme y consolidarme en una empresa que me otorgue estabilidad laboral, aplicar mis experiencias y conocimientos en las distintas áreas de la empresa, y desarrollarme profesionalmente para el buen desempeño de las funciones asignadas.
+           
+      .row
+        .col-md-4.col-md-push-8
+          .biography
+            .myphoto
+              img(src='/images/eze.jpg' class="img-circle" alt='')
+            ul
+              li
+                strong Nombre:
+                | EZEQUIEL SANCHEZ DE LA CRUZ.
+              li
+                strong Fecha de nacimiento:
+                |  26 Julio 1996
+              li
+                strong Direccion:
+                |  FERNANDO LOPEZ ARIAS #109, Col. AGRARIA.
+              li
+                strong Telefono:
+                |  924 123 03 07
+              li
+                strong E-mail:
+                |  escorpio0726@Gmail.com
+        // col-md-4
+        .col-md-4.col-md-pull-4
+          
+          section#resume.resume-section.section-padding
+            .container
+              
+              .row
+                .col-md-8
+                  .resume-title
+                    h3 Educacion
+                  .resume
+                    ul.timeline
+                      li
+                        .posted-date
+                          span.month 2014-2019
+                        // /posted-date
+                        .timeline-panel.wow.fadeInUp
+                          .timeline-content
+                            .timeline-heading
+                              h3 UNIVERSIDAD
+                              span Instituto Tecnológico Superior de Acayucan, Acayucan, Veracruz-Llave, Mexico
+                            // /timeline-heading
+                            .timeline-body
+                              p Actualmente cursando el octavo semestre de ISC 
+                            // /timeline-body
+                          // /timeline-content
+                        // /timeline-panel
+                      li.timeline-inverted
+                        .posted-date
+                          span.month 2011-2014
+                        // /posted-date
+                        .timeline-panel.wow.fadeInUp
+                          .timeline-content
+                            .timeline-heading
+                              h3 CERTIFICADO DE PREPARATORIA
+                              span cobaev 17, Jáltipan, Veracruz-Llave, Mexico
+                            // /timeline-heading
+                            .timeline-body
+                              p En esta institución me desempeñe en el área de Físico-Matemático y me capacite en redes de computadoras CISCO NET WORKING. 
+                            // /timeline-body
+                          // /timeline-content
+                        // /timeline-panel
+                      li
+                        .posted-date
+                          span.month 2008-2011
+                        // /posted-date
+                        .timeline-panel.wow.fadeInUp
+                          .timeline-content
+                            .timeline-heading
+                              h3 CERTIFICADO DE SECUNDARIA
+                              span lic. fernando Lopez Arias,Jáltipan De Morelos, Veracruz-Llave, Mexico
+
+                            // /timeline-heading
+                          // /timeline-content
+                        // /timeline-panel
+              // /row
+          // End Resume Section
+          // Skills Section
+  section#skills.skills-section.section-padding
+    .container
+      h2.section-title.wow.fadeInUp Programaci&oacute;n
+      .row
+        .col-md-6
+          .skill-progress
+            .skill-title
+              h3 JAVA
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100')
+                span 70%
+            // /.progress
+          // /.skill-progress
+          .skill-progress
+            .skill-title
+              h3 PHP
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100')
+                span 60%
+            // /.progress
+          // /.skill-progress
+          .skill-progress
+            .skill-title
+              h3 HTML
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100')
+                span 60%
+            // /.progress
+          // /.skill-progress
+        // /.col-md-6
+        .col-md-6
+          .skill-progress
+            .skill-title  
+              h3 CSS
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100')
+                span 60%
+            // /.progress
+          // /.skill-progress
+          .skill-progress
+            .skill-title
+              h3 BASE DE DATOS
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100')
+                span 80%
+            // /.progress
+          // /.skill-progress
+          .skill-progress
+            .skill-title
+              h3 PHYTON
+            .progress
+              .progress-bar.six-sec-ease-in-out(role='progressbar' aria-valuenow='30' aria-valuemin='0' aria-valuemax='100')
+                span 30%
+            // /.progress
+          // /.skill-progress
+        // /.col-md-6
+      // /.row
+      .skill-chart.text-center
+        h3 DISEñO
+      .row.more-skill.text-center
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='60' data-color='e74c3c')
+            span.percent
+            .chart-text
+              span BLENDER
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='30' data-color='2ecc71')
+            span.percent
+            .chart-text
+              span PHOTOSHOP
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='80' data-color='3498db')
+            span.percent
+            .chart-text
+              span COREL DRAW
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='70' data-color='3498db')
+            span.percent
+            .chart-text
+              span AutoCAD 
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='90' data-color='3498db')
+            span.percent
+            .chart-text
+              span Camtasia Studio 8
+          // /.container
+      .skill-chart.text-center
+        h3 FORTALEZAS & GUSTOS
+      .row.more-skill.text-center
+        .col-xs-12.col-sm-4.col-md-2
+          .chart(data-percent='100' data-color='3498db')
+            span.percent
+            .chart-text
+              span Responsabilidad
+        .col-xs-12.col-sm-4.col-md-2        
+          .chart(data-percent='90' data-color='3498db')
+            span.percent
+            .chart-text
+              span Proactivo
+        .col-xs-12.col-sm-4.col-md-2 
+          .chart(data-percent='95' data-color='3498db')
+            span.percent
+            .chart-text
+              span Aprendizaje
+        .col-xs-12.col-sm-4.col-md-2 
+          .chart(data-percent='95' data-color='3498db')
+            span.percent
+            .chart-text
+              span Dibujo
+        .col-xs-12.col-sm-4.col-md-2 
+          .chart(data-percent='95' data-color='3498db')
+            span.percent
+            .chart-text
+              span Futbol
+        .col-xs-12.col-sm-4.col-md-2 
+          .chart(data-percent='80' data-color='3498db')
+            span.percent
+            .chart-text
+              span Leer
+  
+  footer.footer-wrapper
+    .container
+      .row
+        .col-md-12
+          .copyright.text-center
+            p &copy;EZEQUIEL SANCHEZ 
+            H6 EN CASO DE EMERGENCIA
+            SPAM BERTHA DE LA CRUZ GULLEN 922 136 51 68
+  // End Footer Section
